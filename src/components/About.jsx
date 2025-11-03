@@ -44,22 +44,23 @@ export default function About() {
             className="space-y-4"
           >
             <p className="text-base text-gray-700 font-light leading-relaxed">
-              My journey as an artist began in 2012, during my studies in fashion design. It was there that I discovered my deep connection with colors—a discovery that soon transformed into a calling. Painting came to me as a blessing at a time when I was uncertain about my career path. As I explored different mediums and forms of expression, I eventually found my true artistic voice in creating spiritual artworks using acrylics on canvas.
+              Nitu Chhajer is a self-taught artist. Her artistic journey began a few years ago when she started working on herself spiritually. Eventually, this led her to develop an interest in painting. Nitu's paintings reflect her thoughts, imagination, and inner world.
             </p>
+
             <p className="text-base text-gray-700 font-light leading-relaxed">
-              My art is a reflection of my inner journey—a quest to understand the unknown, uncover life's deeper truths, and embrace the present moment through mindfulness. These personal explorations have inspired me to depict the rising consciousness of humanity through my work.
+              Nitu Chhajer's painting style is often characterized by vibrant colors and intricate details. Her work reflects a deep sensitivity to color and form, creating visual narratives that engage viewers both emotionally and intellectually.
             </p>
+
             <p className="text-base text-gray-700 font-light leading-relaxed">
-              Each of my paintings is an amalgamation of art and spirituality, carrying its own unique meaning. In my mandala art, I believe the entire universe is contained within each piece. The rhythmic repetition of patterns inside every circle brings serenity to the restless mind. Similarly, trees in my artwork symbolize the inner growth of human consciousness. Just as a tree flourishes when nurtured with love and compassion, we too grow and strengthen our roots when we are supported by the same.
+              Her use of bold, vibrant colors creates a sense of depth and energy in her paintings. She often combines rich hues with delicate contrasts to draw the eye and evoke feeling.
             </p>
+
             <p className="text-base text-gray-700 font-light leading-relaxed">
-              The presence of Buddha in my paintings represents the essence of mindfulness and awakening. For me, a Buddha is anyone who is conscious, present, and truly alive. Through these images, I aim to remind viewers of the power of inner awareness.
+              Nitu's paintings frequently feature detailed patterns and textures, contributing to a rich and immersive visual experience. This attention to detail creates layers of meaning and complexity in her artwork.
             </p>
+
             <p className="text-base text-gray-700 font-light leading-relaxed">
-              Color plays a vital role in my artistic expression. Each hue vibrates at its own unique frequency and conveys a distinct emotion. Shades of red express love, power, and passion; blue evokes calmness and peace; green symbolizes abundance, and so on. These vibrant colors breathe life into my work and reflect the emotional depth behind each creation.
-            </p>
-            <p className="text-base text-gray-700 font-light leading-relaxed">
-              I believe that while artists beautify spaces with their work, they also hold a greater responsibility. Through their art, they can inspire reflection, healing, and conscious change. As an artist, I strive not just to create beauty, but also to contribute meaningfully to the world's growth and evolution.
+              Deep down, she believes her paintings are imbued with serenity, love, and strength. She also feels that the secret meaning of her artwork is to share the message of inner transformation through mindfulness across the world.
             </p>
           </motion.div>
         </div>

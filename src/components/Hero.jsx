@@ -14,8 +14,8 @@ export default function Hero({ onNavigate }) {
           transition={{ duration: useReducedMotion() ? 0 : 1, delay: useReducedMotion() ? 0 : 0.2 }}
         >
           <h2 className="font-light text-gray-800 mb-6">
-            <span className="block text-6xl md:text-8xl">Nitu Chhajer's Art</span>
-            <span className="block text-4xl md:text-6xl text-transparent bg-clip-text bg-gradient-to-r from-coral via-terracotta to-rust font-normal">Creating Soulful paintings</span>
+            <span className="block text-6xl md:text-8xl underline decoration-black decoration-4 underline-offset-4">Nitu Chhajer's Art</span>
+            <span className="block text-4xl md:text-6xl leading-snug md:leading-tight pb-1 text-transparent bg-clip-text bg-gradient-to-r from-coral via-terracotta to-rust font-normal lowercase">creating soulful paintings</span>
             <span className="block text-lg md:text-xl font-normal text-gray-700">Originals | Commission</span>
           </h2>
           <motion.a

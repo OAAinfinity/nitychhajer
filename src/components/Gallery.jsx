@@ -11,31 +11,26 @@ const categories = [
   {
     id: 'BUDDHA',
     label: 'BUDDHA',
-    description: 'Sacred depictions of enlightenment and wisdom',
     images: buddhaImages
   },
   {
     id: 'GANESHA',
     label: 'GANESHA',
-    description: 'The remover of obstacles and bringer of wisdom',
     images: ganeshaImages
   },
   {
     id: 'MANDALA',
     label: 'MANDALA',
-    description: 'Sacred geometric patterns for meditation',
     images: mandalaImages
   },
   {
     id: 'NATURE',
     label: 'NATURE',
-    description: 'Spiritual connections with the natural world',
     images: natureImages
   },
   {
     id: 'SELF_LOVE',
     label: 'SELF LOVE',
-    description: 'Art for inner peace and self-acceptance',
     images: selfLoveImages
   }
 ];
