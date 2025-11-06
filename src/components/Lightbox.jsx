@@ -119,6 +119,7 @@ export default function Lightbox({ image, onClose }) {
                   src={image.src}
                   alt={image.title}
                   className="max-w-full max-h-full object-contain rounded-lg transition-transform duration-500 group-hover:scale-105"
+                  style={image.rotation ? { transform: `rotate(${image.rotation}deg)` } : {}}
                 />
               </div>
 

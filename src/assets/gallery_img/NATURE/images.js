@@ -61,8 +61,9 @@ export const images = [
   {
     id: 'nature-9',
     src: img9,
-    title: 'Nature’s paradise',
-    description: 'Size – 36x30, Medium – Acrylic on canvas; Price – Rs.86,250'
+    title: 'Nature\'s paradise',
+    description: 'Size – 36x30, Medium – Acrylic on canvas; Price – Rs.86,250',
+    rotation: 90
   },
   {
     id: 'nature-10',
