@@ -22,108 +22,108 @@ export const images = [
     id: 'mandala-1',
     src: img1,
     title: 'Rise of consciousness',
-    description: 'Size: 24x24, Medium: Acrylic on canvas, Price: Rs. 40,000'
+    description: 'Size: 24x24 inches, Medium: Acrylic on canvas, Price: Rs. 40,000'
   },
   {
     id: 'mandala-2',
     src: img2,
     title: 'Beej',
-    description: 'Size: 48x36, Medium: Acrylic on canvas, Price: Rs. 1,38,000'
+    description: 'Size: 48x36 inches, Medium: Acrylic on canvas, Price: Rs. 1,38,000'
   },
   {
     id: 'mandala-3',
     src: img3,
     title: 'Connection series 2',
-    description: 'Size: 36x48, Medium: Acrylic on canvas, Price: Rs. 1,38,000'
+    description: 'Size: 36x48 inches, Medium: Acrylic on canvas, Price: Rs. 1,38,000'
   },
   {
     id: 'mandala-4',
     src: img4,
     title: 'Enrich your soul',
-    description: 'Size: 48x30, Medium: Acrylic on canvas, Price: Rs. 1,15,000'
+    description: 'Size: 48x30 inches, Medium: Acrylic on canvas, Price: Rs. 1,15,000'
   },
   {
     id: 'mandala-5',
     src: img5,
     title: 'Dhara',
-    description: 'Size: 30x30, Medium: Acrylic on canvas, Price: Rs. 71,875'
+    description: 'Size: 30x30 inches, Medium: Acrylic on canvas, Price: Rs. 71,875'
   },
   {
     id: 'mandala-6',
     src: img6,
     title: 'Bhumija',
-    description: 'Size: 48x36, Medium: Acrylic on canvas, Price: Rs. 1,38,000'
+    description: 'Size: 48x36 inches, Medium: Acrylic on canvas, Price: Rs. 1,38,000'
   },
   {
     id: 'mandala-7',
     src: img7,
     title: 'Bhumi',
-    description: 'Size: 48x30, Medium: Acrylic on canvas, Price: Rs. 1,15,000'
+    description: 'Size: 48x30 inches, Medium: Acrylic on canvas, Price: Rs. 1,15,000'
   },
   {
     id: 'mandala-8',
     src: img8,
     title: 'Ratnagarbha',
-    description: 'Size: 48x36, Medium: Acrylic on canvas, Price: Rs. 1,38,000'
+    description: 'Size: 48x36 inches, Medium: Acrylic on canvas, Price: Rs. 1,38,000'
   },
   {
     id: 'mandala-9',
     src: img9,
     title: 'Mandala – A soul connection series 10',
-    description: 'Size: 36x36, Medium: Acrylic on canvas, Price: Rs. 1,03,500'
+    description: 'Size: 36x36 inches, Medium: Acrylic on canvas, Price: Rs. 1,03,500'
   },
   {
     id: 'mandala-10',
     src: img10,
     title: 'Mandala – A soul connection series 10',
-    description: 'Size: 30x30, Medium: Acrylic on canvas, Price: Rs. 71,875'
+    description: 'Size: 30x30 inches, Medium: Acrylic on canvas, Price: Rs. 71,875'
   },
   {
     id: 'mandala-11',
     src: img11,
     title: 'Zen – Wheel of life',
-    description: 'Size: 36x36, Medium: Acrylic on canvas, Price: Rs. 1,03,500'
+    description: 'Size: 36x36 inches, Medium: Acrylic on canvas, Price: Rs. 1,03,500'
   },
   {
     id: 'mandala-12',
     src: img12,
     title: 'Balance',
-    description: 'Size: 36x36, Medium: Acrylic on canvas, Price: Rs. 1,03,500'
+    description: 'Size: 36x36 inches, Medium: Acrylic on canvas, Price: Rs. 1,03,500'
   },
   {
     id: 'mandala-13',
     src: img13,
     title: 'Mandala – an expansion beyond dimension',
-    description: 'Size: 40x30, Medium: Acrylic on canvas, Price: Rs. 95,738'
+    description: 'Size: 40x30 inches, Medium: Acrylic on canvas, Price: Rs. 95,738'
   },
   {
     id: 'mandala-14',
     src: img14,
     title: 'The light inside series 2',
-    description: 'Size: 24x24, Medium: Acrylic on canvas, Price: Rs. 40,000'
+    description: 'Size: 24x24 inches, Medium: Acrylic on canvas, Price: Rs. 40,000'
   },
   {
     id: 'mandala-15',
     src: img15,
     title: 'Mandala – A soul connection series 9',
-    description: 'Size: 30x30, Medium: Acrylic on canvas, Price: Rs. 71,875'
+    description: 'Size: 30x30 inches, Medium: Acrylic on canvas, Price: Rs. 71,875'
   },
   {
     id: 'mandala-16',
     src: img16,
     title: 'Mandala – A soul connection series 10',
-    description: 'Size: 30x30, Medium: Acrylic on canvas, Price: Rs. 60,000'
+    description: 'Size: 30x30 inches, Medium: Acrylic on canvas, Price: Rs. 60,000'
   },
   {
     id: 'mandala-17',
     src: img17,
     title: 'Mandala – A soul connection series 5',
-    description: 'Size: 30x30, Medium: Acrylic on canvas, Price: Rs. 60,000'
+    description: 'Size: 30x30 inches, Medium: Acrylic on canvas, Price: Rs. 60,000'
   },
   {
     id: 'mandala-18',
     src: img18,
     title: 'The light inside series 4',
-    description: 'Size: 40x30, Medium: Acrylic on canvas, Price: Rs. 95,738'
+    description: 'Size: 40x30 inches, Medium: Acrylic on canvas, Price: Rs. 95,738'
   }
 ];

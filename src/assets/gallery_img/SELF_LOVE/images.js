@@ -10,36 +10,36 @@ export const images = [
     id: 'self-love-1',
     src: img1,
     title: 'Priyadarshini',
-    description: 'Size: 30x24, Medium: Acrylic on canvas, Price: Rs.50,000'
+    description: 'Size: 30x24 inches, Medium: Acrylic on canvas, Price: Rs.50,000'
   },
   {
     id: 'self-love-2',
     src: img2,
     title: 'Selflove',
-    description: 'Size: 24x24, Medium: Acrylic on canvas, Price: Rs.30,000'
+    description: 'Size: 24x24 inches, Medium: Acrylic on canvas, Price: Rs.30,000'
   },
   {
     id: 'self-love-3',
     src: img3,
     title: 'Inner harmony',
-    description: 'Size: 24x24, Medium: Acrylic on canvas, Price: Rs.30,000'
+    description: 'Size: 24x24 inches, Medium: Acrylic on canvas, Price: Rs.30,000'
   },
   {
     id: 'self-love-4',
     src: img4,
     title: 'Only love is real 4',
-    description: 'Size: 30x36, Medium: Acrylic on canvas, Price: Rs.50,000'
+    description: 'Size: 30x36 inches, Medium: Acrylic on canvas, Price: Rs.50,000'
   },
   {
     id: 'self-love-5',
     src: img5,
     title: 'Only love is real 6',
-    description: 'Size: 30x36, Medium: Acrylic on canvas, Price: Rs.50,000'
+    description: 'Size: 30x36 inches, Medium: Acrylic on canvas, Price: Rs.50,000'
   },
   {
     id: 'self-love-6',
     src: img6,
     title: 'Only love is real 3',
-    description: 'Size: 30x30, Medium: Acrylic on canvas, Price: Rs.50,000'
+    description: 'Size: 30x30 inches, Medium: Acrylic on canvas, Price: Rs.50,000'
   }
 ];
