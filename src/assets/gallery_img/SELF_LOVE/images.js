@@ -4,6 +4,7 @@ import img3 from './3.webp';
 import img4 from './4.webp';
 import img5 from './5.webp';
 import img6 from './6.webp';
+import img7 from './7.jpg';
 
 export const images = [
   {
@@ -41,5 +42,11 @@ export const images = [
     src: img6,
     title: 'Only love is real 3',
     description: 'Size: 30x30 inches, Medium: Acrylic on canvas, Price: Rs.50,000'
+  },
+  {
+    id: 'self-love-7',
+    src: img7,
+    title: 'Only love is real series 7',
+    description: 'Size: 24x24 inches, Medium: Acrylic on canvas, Price: Rs.30,000'
   }
 ];

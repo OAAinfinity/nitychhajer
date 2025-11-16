@@ -16,6 +16,7 @@ import img15 from './15.webp';
 import img16 from './16.webp';
 import img17 from './17.webp';
 import img18 from './18.webp';
+import img19 from './19.jpg';
 
 export const images = [
   {
@@ -64,7 +65,8 @@ export const images = [
     id: 'mandala-8',
     src: img8,
     title: 'Ratnagarbha',
-    description: 'Size: 48x36 inches, Medium: Acrylic on canvas, Price: Rs. 1,38,000'
+    description: 'Size: 48x36 inches, Medium: Acrylic on canvas, Price: Rs. 1,38,000 – SOLD',
+    sold: true
   },
   {
     id: 'mandala-9',
@@ -125,5 +127,11 @@ export const images = [
     src: img18,
     title: 'The light inside series 4',
     description: 'Size: 40x30 inches, Medium: Acrylic on canvas, Price: Rs. 95,738'
-  }
+  },
+{
+  id: 'mandala-19',
+  src: img19,
+  title: 'Kalp Vriksh series 1',
+  description: 'Size: 48x36 inches, Medium: Acrylic on canvas, Price: Rs. 1,38,000'
+}
 ];

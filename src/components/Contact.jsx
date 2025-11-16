@@ -1,6 +1,18 @@
 ﻿import { motion } from "framer-motion";
+import { useState } from "react";
 
 export default function Contact() {
+  const [copiedTarget, setCopiedTarget] = useState(null);
+
+  const handleCopy = (text, target) => {
+    try {
+      navigator.clipboard.writeText(text);
+      setCopiedTarget(target);
+      setTimeout(() => setCopiedTarget(null), 2000);
+    } catch (e) {
+      // Fail silently
+    }
+  };
   return (
     <section id="contact" className="py-20 px-6 bg-gradient-to-br from-cream to-peach">
   <div className="max-w-7xl mx-auto">
@@ -39,6 +51,41 @@ export default function Contact() {
               >
                 neetuchhajer@gmail.com
               </a>
+              <div className="mt-2">
+                <button
+                  type="button"
+                  onClick={() => handleCopy("neetuchhajer@gmail.com", "email")}
+                  className="px-3 py-1 text-sm rounded-full bg-coral/10 text-coral hover:bg-coral/20 transition-colors"
+                  aria-label="Copy email address"
+                >
+                  {copiedTarget === 'email' ? 'Copied!' : 'Copy email'}
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div className="flex items-center justify-center space-x-4 p-6 bg-white/60 backdrop-blur-sm rounded-2xl shadow-lg hover:shadow-xl transition-all duration-300">
+            <div className="w-16 h-16 rounded-full bg-gradient-to-br from-coral/20 to-terracotta/10 flex items-center justify-center flex-shrink-0">
+              <span className="text-3xl" aria-hidden="true">📞</span>
+            </div>
+            <div className="flex-1">
+              <h4 className="font-normal text-gray-800 mb-1 text-lg">Phone</h4>
+              <div className="flex items-center gap-3 flex-wrap">
+                <a
+                  href="tel:+918282078882"
+                  className="text-coral hover:text-terracotta transition-colors font-light text-lg"
+                >
+                  +91 8282078882
+                </a>
+                <button
+                  type="button"
+                  onClick={() => handleCopy("+918282078882", "phone")}
+                  className="px-3 py-1 text-sm rounded-full bg-coral/10 text-coral hover:bg-coral/20 transition-colors"
+                  aria-label="Copy phone number"
+                >
+                  {copiedTarget === 'phone' ? 'Copied!' : 'Copy'}
+                </button>
+              </div>
             </div>
           </div>
 
@@ -56,6 +103,16 @@ export default function Contact() {
               <span className="text-coral group-hover:text-terracotta transition-colors font-light text-lg">
                 @nituchhajersart
               </span>
+              <div className="mt-2">
+                <button
+                  type="button"
+                  onClick={(e) => { e.preventDefault(); handleCopy('@nituchhajersart', 'insta'); }}
+                  className="px-3 py-1 text-sm rounded-full bg-coral/10 text-coral hover:bg-coral/20 transition-colors"
+                  aria-label="Copy Instagram handle"
+                >
+                  {copiedTarget === 'insta' ? 'Copied!' : 'Copy handle'}
+                </button>
+              </div>
             </div>
           </a>
         </motion.div>
