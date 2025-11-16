@@ -109,7 +109,7 @@ export default function Gallery() {
                     alt={artwork.title}
                     loading="lazy"
                     decoding="async"
-                    className="w-full h-auto object-contain max-h-[60vh] transition-transform duration-500 group-hover:scale-105"
+                    className={`${artwork.preventUpscale ? '' : 'w-full'} h-auto object-contain max-h-[60vh] transition-transform duration-500 ${artwork.preventUpscale ? '' : 'group-hover:scale-105'}`}
                     style={artwork.rotation ? { transform: `rotate(${artwork.rotation}deg)` } : {}}
                   />
                 </div>

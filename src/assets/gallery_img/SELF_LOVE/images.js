@@ -47,6 +47,7 @@ export const images = [
     id: 'self-love-7',
     src: img7,
     title: 'Only love is real series 7',
-    description: 'Size: 24x24 inches, Medium: Acrylic on canvas, Price: Rs.30,000'
+    description: 'Size: 24x24 inches, Medium: Acrylic on canvas, Price: Rs.30,000',
+    preventUpscale: true
   }
 ];

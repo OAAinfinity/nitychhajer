@@ -4,6 +4,7 @@ import { useEffect, useRef, useState } from 'react';
 export default function Lightbox({ image, onClose }) {
   const [isFullscreen, setIsFullscreen] = useState(false);
   const fullscreenContainerRef = useRef(null);
+  const [naturalSize, setNaturalSize] = useState({ w: null, h: null });
 
   useEffect(() => {
     const handleEscape = (e) => {
@@ -18,6 +19,11 @@ export default function Lightbox({ image, onClose }) {
     window.addEventListener('keydown', handleEscape);
     return () => window.removeEventListener('keydown', handleEscape);
   }, [onClose, isFullscreen]);
+
+  // Reset natural size when image changes
+  useEffect(() => {
+    setNaturalSize({ w: null, h: null });
+  }, [image]);
 
   const handleFullscreen = async () => {
     try {
@@ -118,8 +124,12 @@ export default function Lightbox({ image, onClose }) {
                 <img
                   src={image.src}
                   alt={image.title}
+                  onLoad={(e) => setNaturalSize({ w: e.currentTarget.naturalWidth, h: e.currentTarget.naturalHeight })}
                   className="max-w-full max-h-full object-contain rounded-lg transition-transform duration-500 group-hover:scale-105"
-                  style={image.rotation ? { transform: `rotate(${image.rotation}deg)` } : {}}
+                  style={{
+                    ...(image.rotation ? { transform: `rotate(${image.rotation}deg)` } : {}),
+                    ...(image.preventUpscale && naturalSize.w ? { maxWidth: `${naturalSize.w}px`, maxHeight: `${naturalSize.h}px` } : {})
+                  }}
                 />
               </div>
 

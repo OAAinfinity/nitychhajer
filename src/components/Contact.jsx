@@ -28,7 +28,6 @@ export default function Contact() {
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-coral to-terracotta mx-auto mb-6 rounded-full"></div>
           <p className="text-gray-600 font-light max-w-2xl mx-auto">
-            Connect with me through email or Instagram
           </p>
         </motion.div>
 
