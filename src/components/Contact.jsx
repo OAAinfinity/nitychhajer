@@ -45,15 +45,17 @@ export default function Contact() {
             <div className="flex-1">
               <h4 className="font-normal text-gray-800 mb-1 text-lg">Email</h4>
               <a
-                href="mailto:neetuchhajer@gmail.com"
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=artconnect.nitu@gmail.com&su=Art%20Purchase%20Inquiry"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="text-coral hover:text-terracotta transition-colors font-light text-lg"
               >
-                neetuchhajer@gmail.com
+                artconnect.nitu@gmail.com
               </a>
               <div className="mt-2">
                 <button
                   type="button"
-                  onClick={() => handleCopy("neetuchhajer@gmail.com", "email")}
+                  onClick={() => handleCopy("artconnect.nitu@gmail.com", "email")}
                   className="px-3 py-1 text-sm rounded-full bg-coral/10 text-coral hover:bg-coral/20 transition-colors"
                   aria-label="Copy email address"
                 >

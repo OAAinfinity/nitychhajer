@@ -51,3 +51,4 @@ export const images = [
     preventUpscale: true
   }
 ];
+//kanihk 
