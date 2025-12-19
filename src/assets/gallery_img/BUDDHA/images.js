@@ -10,14 +10,15 @@ import img9 from './9.webp';
 import img10 from './10.webp';
 import img11 from './11.webp';
 import img12 from './12.webp';
+import img13 from './13.webp';
 
 export const images = [
   {
     id: 'buddha-1',
-    src: img1,
-    title: 'Contentment series 1',
-    description: `Size – 30x30 inches, Medium – Acrylic on canvas
-    Price – Rs.71,875`
+    src: img13,
+    title: 'Chetna series - 1',
+    description: `Size – 36x36 inches, Medium – Acrylic on canvas
+    Price – Rs.103,500`
   },
   {
     id: 'buddha-2',
@@ -96,5 +97,12 @@ export const images = [
     title: "Glimpse of Buddha's enlightenment",
     description: `Size – 30x30 inches, Medium – Acrylic on canvas
     Price – Rs.50,000`
+  },
+  {
+    id: 'buddha-13',
+    src: img1,
+    title: 'Contentment series 1',
+    description: `Size – 30x30 inches, Medium – Acrylic on canvas
+    Price – Rs.71,875`
   }
 ];
