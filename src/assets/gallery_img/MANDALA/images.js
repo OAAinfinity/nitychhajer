@@ -23,7 +23,8 @@ export const images = [
     id: 'mandala-1',
     src: img19,
     title: 'Kalp Vriksh series 1',
-    description: 'Size: 48x36 inches, Medium: Acrylic on canvas, Price: Rs. 1,38,000',
+    description: 'Size: 48x36 inches, Medium: Acrylic on canvas, Price: Rs. 1,38,000 – SOLD',
+    sold: true
   },
   {
     id: 'mandala-2',
@@ -132,6 +133,6 @@ export const images = [
     id: 'mandala-19',
     src: img18,
     title: 'The light inside series 4',
-    description: 'Size: 40x30 inches, Medium: Acrylic on canvas, Price: Rs. 95,738'
+    description: 'Size: 40x30 inches, Medium: Acrylic on canvas, Price: Rs. 95,738',
   }
 ];
